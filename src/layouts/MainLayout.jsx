@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function MainLayout() {
   return (
-    <div className="bg-[#666873] h-screen">
+    <div className="h-screen">
       <Navbar />
       <Outlet />
     </div>
