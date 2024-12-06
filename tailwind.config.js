@@ -16,9 +16,9 @@ export default {
         "home-tablet": "url('home/background-home-tablet.jpg')",
         "home-mobile": "url('home/background-home-mobile.jpg')",
         // Destination page background
-        "destination-desktop": "url('destination/background-destination-desktop.jpg')",
-        "destination-tablet": "url('destination/background-destination-tablet.jpg')",
-        "destination-mobile": "url('destination/background-destination-mobile.jpg')",
+        "destination-desktop": "url('destinations/background-destination-desktop.jpg')",
+        "destination-tablet": "url('destinations/background-destination-tablet.jpg')",
+        "destination-mobile": "url('destinations/background-destination-mobile.jpg')",
         // Crew page background
         "crew-desktop": "url('crew/background-crew-desktop.jpg')",
         "crew-tablet": "url('crew/background-crew-tablet.jpg')",
