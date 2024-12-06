@@ -21,7 +21,7 @@ function Homepage() {
 
         <div className="flex items-center justify-center w-[140px] h-[140px] tablet:w-[240px] tablet:h-[240px] rounded-full bg-white cursor-pointer h transition-all duration-300 hover:outline-gray-400 hover:outline hover:outline-[40px]">
           <Link
-            to="/destination"
+            to="/destination/moon"
             className="text-xl tablet:text-3xl font-bellefair uppercase"
           >
             Explore
