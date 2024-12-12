@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
-    <div className="bg-home-mobile tablet:bg-home-tablet lg:bg-home-desktop h-screen bg-cover bg-no-repeat">
-      <main className="max-w-[1400px] laptop:px-24 pt-24 tablet:pt-48 large-desktop:pt-96 laptop:pt-64 flex flex-col laptop:flex-row items-center w-full mx-auto gap-16 laptop:justify-between desktop:gap-96">
+    <div className="bg-home-mobile tablet:bg-home-tablet laptop:bg-home-desktop h-screen bg-cover bg-no-repeat pb-10">
+      <main className="max-w-[1400px] laptop:px-24 pt-24 tablet:pt-48 large-desktop:pt-80 laptop:pt-48 flex flex-col laptop:flex-row items-center w-full mx-auto gap-16 laptop:justify-between desktop:gap-96">
         <div className="w-3/4 laptop:w-1/2  text-white text-center laptop:text-left">
           <h2 className="font-barlow-condensed text-lg tracking-[1px] tablet:text-2xl laptop:text-3xl laptop:tracking-[4px] leading-normal uppercase">
             So, You want to travel to
@@ -19,7 +19,7 @@ function Homepage() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center w-[140px] h-[140px] tablet:w-[240px] tablet:h-[240px] rounded-full bg-white cursor-pointer h transition-all duration-300 hover:outline-gray-400 hover:outline hover:outline-[40px]">
+        <div className="flex items-center justify-center w-[140px] h-[140px] tablet:w-[240px] tablet:h-[240px] rounded-full bg-white cursor-pointer transition-all ease-in-out duration-300 hover:outline-[rgba(100,100,100,.5)] hover:outline hover:outline-[80px] ">
           <Link
             to="/destination/moon"
             className="text-xl tablet:text-3xl font-bellefair uppercase"
